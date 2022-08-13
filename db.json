@@ -3,20 +3,40 @@
     {
       "id": 1,
       "title": "Product 1",
-      "price": 10000,
+      "price": 800,
       "description": "Description product 1"
     },
     {
       "id": 2,
       "title": "Product 1",
-      "price": 5000,
+      "price": 35000,
       "description": "Description product 1"
     },
     {
       "id": 3,
       "title": "Product 1",
-      "price": 5000,
+      "price": 85000,
       "description": "Description product 1"
+    }
+  ],
+  "news": [
+    {
+      "newsId": 1,
+      "title": "News Article 1",
+      "desc": "Description 1",
+      "category": "sports"
+    },
+    {
+      "newsId": 2,
+      "title": "News Article 1",
+      "desc": "Description 1",
+      "category": "politics"
+    },
+    {
+      "newsId": 3,
+      "title": "News Article 1",
+      "desc": "Description 1",
+      "category": "sports"
     }
   ]
 }

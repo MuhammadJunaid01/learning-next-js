@@ -30,10 +30,13 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
   const { params } = context;
+  console.log(` re-genarting ID ${params.productId}`);
+
   const res = await fetch(`http://localhost:4000/products/${params.productId}`);
   const data = await res.json();
   return {
     props: { data },
+    revalidate: 10,
   };
 };
 export default ProductDetail;
